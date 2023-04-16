@@ -1,7 +1,9 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using SqlSugar;
 using System;
+using Volo.Abp.Auditing;
 using Volo.Abp.Domain;
 using Volo.Abp.Modularity;
 
@@ -9,7 +11,7 @@ namespace Abp.SqlSugar
 {
 
     [DependsOn(typeof(AbpDddDomainModule))]
-    public class AbpSqlSugarModule: AbpModule
+    public class AbpSqlSugarModule : AbpModule
     {
         public override void PreConfigureServices(ServiceConfigurationContext context)
         {
@@ -36,6 +38,13 @@ namespace Abp.SqlSugar
                     InitKeyType = InitKeyType.Attribute
                 };
             });
+
+            //自动添加审计功能
+            context.Services.Configure<AbpAuditingOptions>(options =>
+            {
+                options.IsEnabled = true;
+            });
+            context.Services.Replace(ServiceDescriptor.Singleton<IAuditingStore, SqlSugarAuditingStore>());
         }
     }
 }
