@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Abp.SqlSugar
+build_property.ProjectDir = C:\Users\bing4\Desktop\project\FS.Abp.SqlSugar\Abp.SqlSugar\

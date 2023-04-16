@@ -1,0 +1,10 @@
+C:\Users\bing4\Desktop\project\FS.Abp.SqlSugar\Abp.SqlSugar\bin\Debug\netstandard2.1\Abp.SqlSugar.deps.json
+C:\Users\bing4\Desktop\project\FS.Abp.SqlSugar\Abp.SqlSugar\bin\Debug\netstandard2.1\Abp.SqlSugar.dll
+C:\Users\bing4\Desktop\project\FS.Abp.SqlSugar\Abp.SqlSugar\bin\Debug\netstandard2.1\Abp.SqlSugar.pdb
+C:\Users\bing4\Desktop\project\FS.Abp.SqlSugar\Abp.SqlSugar\obj\Debug\netstandard2.1\Abp.SqlSugar.csproj.AssemblyReference.cache
+C:\Users\bing4\Desktop\project\FS.Abp.SqlSugar\Abp.SqlSugar\obj\Debug\netstandard2.1\Abp.SqlSugar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bing4\Desktop\project\FS.Abp.SqlSugar\Abp.SqlSugar\obj\Debug\netstandard2.1\Abp.SqlSugar.AssemblyInfoInputs.cache
+C:\Users\bing4\Desktop\project\FS.Abp.SqlSugar\Abp.SqlSugar\obj\Debug\netstandard2.1\Abp.SqlSugar.AssemblyInfo.cs
+C:\Users\bing4\Desktop\project\FS.Abp.SqlSugar\Abp.SqlSugar\obj\Debug\netstandard2.1\Abp.SqlSugar.csproj.CoreCompileInputs.cache
+C:\Users\bing4\Desktop\project\FS.Abp.SqlSugar\Abp.SqlSugar\obj\Debug\netstandard2.1\Abp.SqlSugar.dll
+C:\Users\bing4\Desktop\project\FS.Abp.SqlSugar\Abp.SqlSugar\obj\Debug\netstandard2.1\Abp.SqlSugar.pdb
